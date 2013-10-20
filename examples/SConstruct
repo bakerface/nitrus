@@ -1,0 +1,4 @@
+env = Environment(TARGET_ARCH="x86")
+env.Program('webclient', 'webclient.cpp')
+env.Program('webserver', 'webserver.cpp')
+env.Program('jabberclient', 'jabberclient.cpp')
